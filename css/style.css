@@ -1,0 +1,621 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clr{
+  clear: both;
+}
+
+.hero1{
+  background: rgb(34, 34, 100);
+  background: url('../img/new1.jfif')no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+
+}
+
+.logo{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  z-index: 20;
+  padding-left: 20px;
+}
+
+ .primary-1, .primary-2{
+  font-size: 16px;
+  font-family: 'Michroma', sans-serif;
+  letter-spacing: 3.5px;
+  color: #fff;
+}
+.primary-3{
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  color: #fff;
+  padding-top: 20px;
+}
+
+h1{
+  color: #fff;
+}
+
+/*navbar*/
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  padding: 0 30px;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar a{
+  padding: 10px 20px;
+  margin: 0px 5px;
+}
+
+.navbar a:hover{
+  border-bottom: rgb(241, 171, 216) 3px solid;
+}
+
+.current {
+  border-bottom:rgb(241, 171, 216) 3px solid ;
+}
+
+ .hero1 ul{
+  list-style: none;
+  color: #fff;
+ }
+
+ .hero1 a{
+  font-family: 'Michroma', sans-serif;
+  text-decoration: none;
+  color: #fff;
+ }
+
+ .hero1 p{
+  margin: 5px 0;
+  color: #fff;
+ }
+
+ img{
+   width: 100%;
+ }
+
+ .hero1 .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 250px;
+ }
+
+ .hero1 .content p{
+  max-width: 600px;
+  margin: 5px 0 30px;
+ }
+
+ .hero1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+ }
+
+ .hero1 *{
+  z-index: 10;
+ }
+
+ /*about*/
+ .container{
+     max-width: var(--max-width);
+     margin: auto;
+     justify-items: center;
+     padding: 0 2rem;
+     overflow: hidden;
+     padding-top: 50vh;
+ }
+   .hero2{
+    background:  rgb(255, 254, 254);
+    background: url('../img/about1.jpg')no-repeat center center/cover;
+    height: 50vh;
+   }
+
+    #navbar2 .logo2{
+      font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  z-index: 20;
+  padding-left: 20px;
+    }
+
+.primary-1-2{
+  font-size: 16px;
+  font-family: 'Michroma', sans-serif;
+  letter-spacing: 3.5px;
+  color: #fff;
+}
+
+#navbar2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  padding: 0 30px;
+}
+
+.navbar2 ul{
+  display: flex;
+}
+
+.navbar2 a{
+  padding: 10px 20px;
+  margin: 0px 5px;
+}
+
+.navbar2 a:hover{
+  border-bottom: rgb(241, 171, 216) 3px solid;
+}
+
+.current2 {
+  border-bottom:rgb(241, 171, 216) 3px solid ;
+}
+
+.hero2 ul{
+  list-style: none;
+  color: #fff;
+ }
+
+ .hero2 a{
+  font-family: 'Michroma', sans-serif;
+  text-decoration: none;
+  color: #fff;
+ }
+
+ .clr{
+  clear: both;
+}
+
+.hero2 p{
+  margin: 5px 0;
+  color: #fff;
+ }
+ 
+ /*font aweosomw*/
+ #facilities .facilities{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  align-items: center;
+  justify-content: center;
+  }
+
+  #facilities .facilities .items{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    height: 20px;
+    margin-bottom: 0;
+  }
+ 
+  .items i{
+    margin-left: 90px;
+  }
+ 
+  .items p{
+   padding: 20px;
+   color: black;
+   text-align: center;
+  }
+
+  .facilities h2{
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+
+  /*contacts*/
+
+  #contacts .contacts{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    justify-content: center;
+    }
+  
+     #contacts{
+      background: #333;
+     }
+    #contacts .contacts .method{
+      padding: 10px;
+      height: 65px;
+      margin-bottom: 0;
+    }
+
+    .method a i{
+      text-decoration: none;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .method a i:hover{
+      color: rgb(168, 168, 247);
+    }
+   
+    .method i{
+      margin-left: 90px;
+    }
+
+    .method .icon{
+      padding-left: 10px;
+    }
+
+    .method h2{
+      padding-bottom: 30px;
+      color: #fff;
+    }
+   
+    .service p{
+     padding: 20px;
+     color: black;
+     text-align: center;
+    }
+  
+    .contacts h2{
+      text-align: center;
+      padding-top: 10px;
+      margin: auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+  
+  /*aricle*/
+#about-articles .articles-container{
+display: grid;
+grid-template-columns: 25% 40%;
+align-items: center;
+justify-content: center;
+}
+
+#about-articles .articles-container .card{
+  padding-top: 20px;
+}
+
+ .card .about_box1 ,
+ .card .about_box2{
+  color: black;
+ }
+
+ .card{
+  padding: 1rem;
+ }
+
+ .about_box1{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  border-right: rgb(241, 171, 216) 3px solid;
+ 
+ }
+
+ .about_box2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+ }
+
+
+ #about-footer .about-footer{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  background:  rgb(245, 245, 245);
+  }
+  
+ .about-footer p{
+  color: black;
+ }
+
+ #about-footer .about-footer .card2{
+   height: 250px;
+ }
+
+ .card2 img{
+   height: 100%;
+ }
+
+ .card2 p{
+  text-align: center;
+  padding: 20px;
+ }
+
+ /*Gallery*/
+  
+ .container-gallery{
+  max-width: var(--max-width);
+  margin: auto;
+  justify-items: center;
+  padding: 0 2rem;
+  overflow: hidden;
+  padding-top: 15vh;
+}
+
+  .hero3{
+    background:  rgb(243, 239, 239);
+  }
+  
+ .logo-3{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  padding-left: 20px;
+ }
+
+ #navbar3 .logo-3{
+  font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+color: black;
+padding-left: 20px;
+}
+
+.primary-x{
+font-size: 16px;
+font-family: 'Michroma', sans-serif;
+letter-spacing: 3.5px;
+color: black;
+}
+
+#navbar3{
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: absolute;
+width: 100%;
+height: 70px;
+top: 0px;
+padding: 0 30px;
+}
+
+.navbar3 ul{
+display: flex;
+}
+
+.navbar3 a{
+padding: 10px 20px;
+margin: 0px 5px;
+}
+
+.navbar3 a:hover{
+border-bottom: rgb(241, 171, 216) 3px solid;
+}
+
+.hero3 ul{
+  list-style: none;
+  color: black;
+ }
+
+ .hero3 a{
+  font-family: 'Michroma', sans-serif;
+  text-decoration: none;
+  color: black;
+ }
+
+ .current3 {
+  border-bottom:rgb(241, 171, 216) 3px solid ;
+}
+
+ .gallery{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 3.5px;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+ }
+
+ .gallery .primary-G{
+  font-size: 50px;
+ }
+
+ #photos .gallery-photos{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: .5px;
+ }
+
+ #photos .gallery-photos .card{
+  height:250px;
+  padding: 3px;
+ }
+
+ .card img{
+  height: 100%;
+  border-radius: 2px;
+ }
+
+ .card img:hover{
+  opacity: .5;
+ }
+
+ /*bookings*/
+ .hero4{
+  background:  rgb(255, 254, 254);
+  background: url('../img/room2.jpg')no-repeat center center/cover;
+  height: 50vh;
+ }
+
+ .room-container{
+  max-width: var(--max-width);
+  margin: auto;
+  justify-items: center;
+  padding: 0 2rem;
+  overflow: hidden;
+  padding-top: 1vh;
+ }
+
+.logo-4{
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+color: black;
+padding-left: 20px;
+}
+
+#navbar4 .logo-4{
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+color: white;
+padding-left: 20px;
+}
+
+.primary-x{
+font-size: 16px;
+font-family: 'Michroma', sans-serif;
+letter-spacing: 3.5px;
+color: white;
+}
+
+.primary-g{
+  font-size: 16px;
+  font-family: 'Michroma', sans-serif;
+  letter-spacing: 3.5px;
+  color: black;
+  }
+
+#navbar4{
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: absolute;
+width: 100%;
+height: 70px;
+top: 0px;
+padding: 0 30px;
+}
+
+.navbar4 ul{
+display: flex;
+}
+
+.navbar4 a{
+padding: 10px 20px;
+margin: 0px 5px;
+}
+
+.navbar4 a:hover{
+border-bottom: black 3px solid;
+}
+
+.hero4 .current3{
+  border-bottom: black 3px solid;
+}
+
+.hero4 ul{
+list-style: none;
+color: white;
+}
+
+.hero4 a{
+font-family: 'Michroma', sans-serif;
+text-decoration: none;
+color: white;
+}
+
+#rooms .room-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+ }
+
+ #rooms .room-container .room-card{
+  height:400px;
+  padding: 3px;
+  background-color:rgb(245, 245, 245);
+  border: rgb(190, 164, 164) 2px solid;
+ }
+
+ .room-card img{
+  height: 300px;
+  border-radius: 2px;
+  padding-bottom: 10px;
+ }
+
+ .room-card img:hover{
+  opacity: .5;
+ }
+  
+ .room-card .details{
+  padding:2px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+ }
+
+ .room-card .ratings,
+ .room-card .cost{
+  padding:2px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+ }
+
+ .style{
+  font-family: 'Island Moments', cursive;
+  font-size: 70px;
+  color:rgb(190, 164, 164) ;
+  text-align: center;
+  margin: auto;
+  padding-top: 380px;
+
+ }
+
+ .button{
+  color: white;
+  background: #dc143c;
+  padding: 15px 20px;
+  margin-left: 73px;
+  border-radius: 4px;
+  font-size: 14px;
+ }
+
+ .button:hover{
+  background: rgb(59, 58, 58);
+ }
+
+
+
+ 
+
+  
+
+
+
+
+
+ 
+ 
+ 
+
+
+
