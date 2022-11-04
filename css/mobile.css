@@ -118,7 +118,7 @@
     }
 
     #about-footer .about-footer p{
-      overflow: hidden;
+      overflow: scroll;
     }
 
     #contacts .contacts{
