@@ -551,7 +551,7 @@ color: white;
  }
 
  #rooms .room-container .room-card{
-  height:400px;
+  height:450px;
   padding: 3px;
   background-color:rgb(245, 245, 245);
   border: rgb(190, 164, 164) 2px solid;
@@ -571,6 +571,13 @@ color: white;
   padding:2px 10px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
+ }
+
+ .room-card a{
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
  }
 
  .room-card .ratings,
@@ -594,7 +601,6 @@ color: white;
   color: white;
   background: #dc143c;
   padding: 15px 20px;
-  margin-left: 73px;
   border-radius: 4px;
   font-size: 14px;
  }
