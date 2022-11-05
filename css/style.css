@@ -290,7 +290,7 @@ h1{
   /*aricle*/
 #about-articles .articles-container{
 display: grid;
-grid-template-columns: 25% 40%;
+grid-template-columns: 1fr 2fr;
 align-items: center;
 justify-content: center;
 }
